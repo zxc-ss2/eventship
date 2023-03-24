@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url("../assets/fonts/Gilroy-Regular.eot");
+  src: url("../assets/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Gilroy-Regular.woff") format("woff"), url("../assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy Medium';
+  src: url("../assets/fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Gilroy-Medium.woff") format("woff"), url("../assets/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy Semibold';
+  src: url("../assets/fonts/Gilroy-SemiBold.eot");
+  src: url("../assets/fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Gilroy-SemiBold.woff") format("woff"), url("../assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Gilroy Regular';
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
